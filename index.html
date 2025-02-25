@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Profissional</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="assets/images/CF.jpeg" alt="Sua Foto" class="profile-img">
+            <h1>Carlos Filho</h1>
+            <p>Engenheiro de software</p>
+            <nav>
+                <a href="#sobre">Sobre</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#contato">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="sobre" class="container">
+        <h2 class="section-title">Sobre Mim</h2>
+        <p>Desenvolvedor de software com experiência em desenvolvimento de soluções tecnológicas. Minha trajetória profissional inclui a participação em projetos que exigiram habilidades técnicas em Python e JavaScript, além de criatividade e resiliência para resolver problemas complexos. Acredito na aprendizagem contínua e estou sempre em busca de aprimorar minhas habilidades.</p>
+    </section>
+
+    <section id="projetos">
+        <div class="container">
+            <h2 class="section-title">Projetos Recentes</h2>
+            <div class="projects-grid">
+                <div class="project-item">
+                    <h3>Detecção de pessoas</h3>
+                    <video width="350" height="250" controls>
+                        <source src="./assets/video/AnalisadoPYTHON.mp4" type="video/mp4">
+                        Seu navegador não suporta a tag de vídeo.
+                    </video>
+                    <p>Descrição breve do Projeto 1.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="container">
+        <h2 class="section-title">Contato</h2>
+        <form class="contact-form">
+            <div class="form-group">
+                <input type="text" placeholder="Seu nome" required>
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Seu e-mail" required>
+            </div>
+            <div class="form-group">
+                <textarea placeholder="Sua mensagem" rows="5" required></textarea>
+            </div>
+            <button type="submit">Enviar Mensagem</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://github.com/Carlosravick" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/carlosravick/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>&copy; <span id="current-year"></span> Carlos Filho. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
