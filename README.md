@@ -16,4 +16,4 @@ Desenvolvi um sistema que utiliza o modelo YOLO para detectar pessoas em vídeos
 
 ## Contato
 
-Para mais informações ou para entrar em contato, visite meu perfil no [LinkedIn](https://www.linkedin.com/in/carlos-filho) ou envie um e-mail para carlos.filho@email.com.
+Para mais informações ou para entrar em contato, visite meu perfil no [LinkedIn](https://www.linkedin.com/in/carlos-filho)
